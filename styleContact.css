@@ -3,7 +3,7 @@
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 204, 0, 0.7)),
-    url(/images/contactTitle.jpg);
+    url(./images/contactTitle.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -47,10 +47,10 @@
 }
 
 .contact-col div h5 {
-    font-size: 20px;
-    margin-bottom: 5px;
-    color: rgb(0, 0, 0);
-    font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
 
 .contact-col img {
@@ -59,37 +59,38 @@
 
 /* FORM */
 
-.contact-col input,textarea{
-    display: flex;
-    justify-items: center;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid rgb(255, 204, 0);
+.contact-col input,
+textarea {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid rgb(255, 204, 0);
 }
 
-.contact-col-radio{
-    margin-bottom: 270px;
+.contact-col-radio {
+  margin-bottom: 270px;
 
-    outline: none;
-    border: 1px solid rgb(255, 204, 0);
+  outline: none;
+  border: 1px solid rgb(255, 204, 0);
 }
 
 .contactMe-button {
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(255, 204, 0);
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .contactMe-button:hover {
-    border: 1px solid rgb(0, 0, 0);
-    background: rgb(255, 204, 0);
-    transition: 0.5s;
-  }
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 204, 0);
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.contactMe-button:hover {
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 204, 0);
+  transition: 0.5s;
+}

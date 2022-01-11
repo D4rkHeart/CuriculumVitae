@@ -10,7 +10,7 @@
       rgba(255, 204, 0, 0.534),
       rgba(46, 46, 56, 0.2)
     ),
-    url(/images/Mountain.jpg);
+    url(./images/Mountain.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -196,10 +196,7 @@ nav img {
   body {
     overflow-x: hidden;
   }
-
 }
-
-
 
 /* FOOTER */
 
@@ -210,15 +207,14 @@ nav img {
   padding: 30px 0;
 }
 
-.footer h4{
+.footer h4 {
   font-size: 20px;
   margin-bottom: 25px;
   margin-top: 20px;
-  font-weight: 600
+  font-weight: 600;
 }
 
-.footer img{
+.footer img {
   width: 110px;
   text-align: center;
-
 }

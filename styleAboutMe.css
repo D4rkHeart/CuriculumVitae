@@ -2,7 +2,8 @@
 .sub-header {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(255, 204, 0,0.7)),url(/images/aboutMeTitle.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 204, 0, 0.7)),
+    url(./images/aboutMeTitle.jpeg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -10,28 +11,27 @@
   font-size: 20px;
 }
 
-.sub-header h1{
+.sub-header h1 {
   margin-top: 100px;
 }
 
 /* About me page */
 
-.aboutMe{
-  width: 80%; 
+.aboutMe {
+  width: 80%;
   margin: auto;
   padding-top: 80px;
   padding-bottom: 50px;
 }
 
-.aboutMe-col{
+.aboutMe-col {
   flex-basis: 48%;
   padding: 20px 2px;
 }
 
-.aboutMe-col img{
+.aboutMe-col img {
   width: 300px;
   padding-left: 140px;
-
 }
 
 .aboutMerow {
@@ -42,12 +42,12 @@
   justify-content: space-between;
 }
 
-.aboutMe-col h1{
+.aboutMe-col h1 {
   padding-top: 0;
   font-size: 40px;
 }
-.aboutMe-col p{
-  padding:15px 0;
+.aboutMe-col p {
+  padding: 15px 0;
   font-size: 25px;
 }
 /* .aboutMe {
@@ -80,98 +80,95 @@
     object-fit: contain;
   }
   /* Presentation text */
-  .aboutMe-col-text {
-    background-color: rgba(255, 255, 255, 0.534);
-    flex-basis: 52%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .aboutMe-col-text h1 {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    padding: 20px;
-  } */
+.aboutMe-col-text {
+  background-color: rgba(255, 255, 255, 0.534);
+  flex-basis: 52%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutMe-col-text h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+*/
   
   /* Redirection after the presentation */
   .aboutMeRedirection {
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background: linear-gradient(rgba(255, 204, 0, 0.849), rgb(255, 255, 255));
-    height: 250%;
-  }
-  .aboutMeRedirection-col {
-    flex-basis: 35%;
-    border-radius: 0px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    background-image: url("/images/gameDesignPicture.jpeg");
-    background-size: 100%, contain;
-    background-repeat: no-repeat, no-repeat;
-    background-position: center;
-    width: 100%;
-    padding-top: 45.45%; /* (h/w) x 100 */
-    margin-bottom: 30px;
-  }
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background: linear-gradient(rgba(255, 204, 0, 0.849), rgb(255, 255, 255));
+  height: 250%;
+}
+.aboutMeRedirection-col {
+  flex-basis: 35%;
+  border-radius: 0px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-image: url("./images/gameDesignPicture.jpeg");
+  background-size: 100%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 45.45%; /* (h/w) x 100 */
+  margin-bottom: 30px;
+}
 
-  
-  .aboutMeRedirection-col img {
-    width: 350px;
-    height: 350px;
-    text-align: center;
-    display: block;
-    overflow: hidden;
-  }
+.aboutMeRedirection-col img {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
 
-  .aboutMeRedirectionrow {
-    margin-top: 0px;
-    padding-top: 0px;
-    display: flex;
-    justify-content: space-between;
-    height: 650px;
-  }
-  
-  
-  .layer {
-    color: #fff;
-    background: transparent;
-    margin-top: 42px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 4.4em;
-    transition: 1s;
-  }
-  
-  .layer h3 {
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0%;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.4s;
-  }
-  
-  .layer:hover h3 {
-    color: rgb(0, 0, 0);
-    bottom: 400px;
-    opacity: 1;
-  }
-  
-  .layer:hover {
-    background: rgba(255, 255, 255, 0.7);
-  }
-  
- 
+.aboutMeRedirectionrow {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 650px;
+}
+
+.layer {
+  color: #fff;
+  background: transparent;
+  margin-top: 42px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 4.4em;
+  transition: 1s;
+}
+
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.layer:hover h3 {
+  color: rgb(0, 0, 0);
+  bottom: 400px;
+  opacity: 1;
+}
+
+.layer:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
 
 @media (max-width: 640px) {
   /* About me resume home page */
