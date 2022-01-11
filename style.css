@@ -204,13 +204,13 @@ nav img {
   color: rgb(0, 0, 0);
   width: 100%;
   text-align: center;
+  margin-top:10px;
   padding: 30px 0;
 }
 
 .footer h4 {
   font-size: 20px;
   margin-bottom: 25px;
-  margin-top: 20px;
   font-weight: 600;
 }
 
