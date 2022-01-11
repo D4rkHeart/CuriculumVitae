@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleGameDesign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/images/Logo.png"></a>
+        <div class="navigation-links" id="navigationLinks">
+            <img src="/images/CloseMenuIcon.png" class="closeMenuIcon" onclick="hideMenu()"></img>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About me</a></li>
+                <li><a href="gameDesign.html">Game Design</a></li>
+                <li><a href="graphicDesign.html">Graphic design</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="questions.html">Questions</a></li>
+            </ul>
+        </div>        
+            <img src="/images/BurgerMenuIcon.png" class="burgerMenuIcon" onclick="showMenu()"></img>
+        </nav>
+        </div>
+            <h1>Game design</h1>
+            <p>"Le summum de l'art de la conception de jeux consiste à combiner une mécanique parfaite et <br>une fiction captivante en un système de signification sans faille."<br>- Tynan Sylvester -</p>
+        </div>
+    </section>
+<section class="gameDesignTopic">
+    <div class="gameDesignrow">
+        <div class="gameDesign-col">
+            <div class="layer">
+                <h3>Game design document</h3>
+                <p>
+                    Un game design document (que l'on peut traduire en « cahier des charges du jeu »), souvent abrégé en GDD, 
+                    est une notice qui, lors de la phase de conception d'un jeu vidéo, présente en détail tous les éléments
+                    devant faire partie de ce jeu : gameplay (action), univers, règles, effets audio, vidéo, modélisation, aspect graphique, programmation, storyboard, etc. 
+                </p>
+            </div>
+        </div>
+        <div class="gameDesign-col">
+            <!-- <img src=""> -->
+            <div class="layer">
+                <h3>Game concept</h3>
+                <p>
+                    Ce document de trois ou quatre pages résume le concept du jeu, les intentions et les ambitions. 
+                    Il permet d’estimer le temps de production, d’établir une étude de marché mais aussi de définir le potentiel commercial, 
+                    le budget, figer les pillars du gameplay, etc. 
+                </p>
+            </div>
+        </div>
+        <div class="gameDesign-col">
+            <!-- <img src="/images/photographyPicture.jpeg"> -->
+            <div class="layer">
+                <h3>Rational game design</h3>
+                <p>
+                    La conception rationnelle d'un jeu consiste à se concentrer sur les éléments essentiels du gameplay
+                    et à supprimer les informations inutiles. Les objectifs et les mécanismes doivent être clairs, 
+                    lisibles et présentés de manière ordonnée. Un autre point essentiel de la conception rationnelle 
+                    des jeux est de préserver les courbes d'apprentissage et de difficulté d'un jeu, ce qui le rendra 
+                    finalement adapté à un public plus large.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- toggle bruger menu -->
+    <script>
+        var navigationLinks = document.getElementById("navigationLinks");
+        function showMenu(){navigationLinks.style.right = "0"}
+        function hideMenu(){navigationLinks.style.right = "-200px"}
+    </script>
+<section class="footer">
+    <div>
+        <h4> 
+            « Il y a trois réactions possibles à tout design : oui, non, et WAHOU ! <br>La troisième est celle que je vise. » – Milton Glaser 
+        </h4>
+        <img src="/images/FacebookIcon.png" href="">
+        <img src="/images/instagramIcon.png" href="">
+        <img src="/images/TwitterIcon.png" href="">
+        <img src="/images/WhatsAppIcon.png" href="">
+
+        <p>Made with heart by Leonardo Surdez&#153;</p>
+    </div>
+</section>
+</body>
+</html>

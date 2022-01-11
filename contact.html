@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleContact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/images/Logo.png"></a>
+        <div class="navigation-links" id="navigationLinks">
+            <img src="/images/CloseMenuIcon.png" class="closeMenuIcon" onclick="hideMenu()"></img>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About me</a></li>
+                <li><a href="gameDesign.html">Game Design</a></li>
+                <li><a href="graphicDesign.html">Graphic design</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="questions.html">Questions</a></li>
+            </ul>
+        </div>        
+            <img src="/images/BurgerMenuIcon.png" class="burgerMenuIcon" onclick="showMenu()"></img>
+        </nav>
+        </div>
+            <h1>Contact</h1>
+        </div>
+    </section>
+    <script>
+        var navigationLinks = document.getElementById("navigationLinks");
+        function showMenu(){navigationLinks.style.right = "0"}
+        function hideMenu(){navigationLinks.style.right = "-200px"}
+    </script>
+<section class="contact">
+    <div class="contactrow">
+        <div class="contact-col">
+            <div>
+                <img src="/images/callIcon.png" width="39px">
+                <span>
+                    <h5>+41 (0)79 654 72 94</h5>
+                    <p>Disponible de 18-20h du Lundi au vendredi</p>
+                </span>
+            </div>
+            <div>
+                <img src="/images/emailIcon.png" width="39px">
+                <span>
+                    <h5>Leonardo.surdez@gmail.com</h5>
+                    <p>Ecrivez moi pour obtenir plus d'information</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Entrez votre prénom" required>
+                <input type="text" placeholder="Entrez votre Nom" required>
+                <input type="email" placeholder="Entrez votre adresse email" required>
+                <input type="text" placeholder="Entrer le sujet de votre communication" required>
+                <textarea rows="9" placeholder="Entrez ce que vous voulez dire" required></textarea>
+                <button type="submit" class="contactMe-button">Envoyez le message</button>
+            </form>
+        </div>
+        <div class="contact-col-radio">
+            <input type="radio" id="privé"name="type-Email" value="email">
+            <label for="privé">Privé</label>          
+            <input type="radio" id="professionnel" name="type-Email">
+            <label for="professionnel">Professionnel</label>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div>
+        <h4> 
+            « Il y a trois réactions possibles à tout design : oui, non, et WAHOU ! <br>La troisième est celle que je vise. » – Milton Glaser 
+        </h4>
+        <img src="/images/FacebookIcon.png" href="">
+        <img src="/images/instagramIcon.png" href="">
+        <img src="/images/TwitterIcon.png" href="">
+        <img src="/images/WhatsAppIcon.png" href="">
+
+        <p>Made with heart by Leonardo Surdez&#153;</p>
+    </div>
+</section>
+</body>
+</html>

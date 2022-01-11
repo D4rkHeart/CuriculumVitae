@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/images/Logo.png"></a>
+            <div class="navigation-links" id="navigationLinks">
+                <img src="/images/CloseMenuIcon.png" class="closeMenuIcon" onclick="hideMenu()"></img>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutMe.html">About me</a></li>
+                    <li><a href="gameDesign.html">Game Design</a></li>
+                    <li><a href="graphicDesign.html">Graphic design</a></li>
+                    <li><a href="photography.html">Photography</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="questions.html">Questions</a></li>
+                </ul>
+            </div>        
+        <img src="/images/BurgerMenuIcon.png" class="burgerMenuIcon" onclick="showMenu()"></img>
+        </nav>
+<div class="text-box">
+    <h1>Bienvenue dans mon monde</h1>
+    <p>"Apprend les règles comme un professionnel afin de pouvoir les briser comme un artiste." -Pablo Picasso-</p>
+    <a href="" class="contact-button">contactez moi pour avoir plus d'info</a>
+</div>
+    </section>
+<!-- About me Page -->
+<section class="aboutMeRecap">
+    <h1>Mes skills?</h1>
+    <p>Innovateur, autonome, méthodique et curieux,</p>
+
+    <div class="aboutMeRecaprow">
+        <div class="aboutMeRecap-col">
+            <h3> 
+                Ce que je sais faire
+            </h3>
+            <p>
+                Design, creation de ligne éditoriale, game design etc.
+            </p>
+        </div>
+        <div class="aboutMeRecap-col">
+            <h3> 
+                Ce que je sais utiliser
+            </h3>
+            <p>
+                photoshop, adobe etc..
+            </p>
+        </div>
+        <div class="aboutMeRecap-col">
+            <h3> 
+                Ce qui me motive 
+            </h3>
+            <p>
+                Design, creation de ligne éditoriale, game design etc.
+            </p>
+        </div>
+    </div>
+
+    
+</section>
+<!-- JavaScript Responsive Web Design -->
+<script>
+    var navigationLinks = document.getElementById("navigationLinks");
+    function showMenu(){navigationLinks.style.right = "0"}
+    function hideMenu(){navigationLinks.style.right = "-200px"}
+</script>
+<section class="footer">
+    <div>
+        <h4> 
+            « Il y a trois réactions possibles à tout design : oui, non, et WAHOU ! <br>La troisième est celle que je vise. » – Milton Glaser 
+        </h4>
+        <img src="/images/FacebookIcon.png" href="">
+        <img src="/images/instagramIcon.png" href="">
+        <img src="/images/TwitterIcon.png" href="">
+        <img src="/images/WhatsAppIcon.png" href="">
+
+        <p>Made with heart by Leonardo Surdez&#153;</p>
+    </div>
+</section>
+</body>
+</html>

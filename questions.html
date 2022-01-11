@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleQuestion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/images/Logo.png"></a>
+        <div class="navigation-links" id="navigationLinks">
+            <img src="/images/CloseMenuIcon.png" class="closeMenuIcon" onclick="hideMenu()"></img>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About me</a></li>
+                <li><a href="gameDesign.html">Game Design</a></li>
+                <li><a href="graphicDesign.html">Graphic design</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="questions.html">Questions</a></li>
+            </ul>
+        </div>        
+            <img src="/images/BurgerMenuIcon.png" class="burgerMenuIcon" onclick="showMenu()"></img>
+        </nav>
+        <div>
+            <h1>Foire au question</h1>
+        </div>
+    </section>
+    <!-- TABLEAU -->
+    <section>
+        <!--for demo wrap-->
+        <h1>DIPLOME</h1>
+        <div class="tbl-header">
+          <table>
+            <thead>
+              <tr>
+                <th>Diplome</th>
+                <th>Institution</th>
+                <th>Année</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table>
+            <tbody>
+              <tr>
+                <td>None</td>
+                <td>EPAC</td>
+                <td>2015-2015</td>
+                <td>Game Art</td>
+              </tr>
+              <tr>
+                <td>None</td>
+                <td>Academie Meuron</td>
+                <td>2015-2015</td>
+                <td>Art</td>
+              </tr>
+              <tr>
+                <td>None</td>
+                <td>Ecole de culture Général</td>
+                <td>2015-2018</td>
+                <td>Social-musique</td>
+              </tr>
+              <tr>
+                <td>C2 Proficiency</td>
+                <td>Cambridge</td>
+                <td>2015</td>
+                <td>Anglais</td>
+              </tr>
+              <tr>
+                <td>C2 Goethe-zertifikat</td>
+                <td>Goethe Institut</td>
+                <td>2014</td>
+                <td>Allemand</td>
+              </tr>
+              <tr>
+                <td>Bachelor bac+4 </td>
+                <td>Gobelin</td>
+                <td>2018-2021</td>
+                <td>Game design, level design, UI/UX design</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+<!-- QUESTION-RÉPONSE -->
+      <section class="questionAnswer">
+          <h3>1. Expliquer la différence entre une requête HTTP synchrone et asynchrone.</h3>
+            <p> 
+                La diférence fondamentale entre une requête synchrone et asychrone c'est que la requête dite synchrone bloque les envoies de requetes en attendant la réponse tandit que l'asychorne lui peut envoyer plusieur requête sans avoir besoin d'attendre la réponse.
+            </p>
+            <h3>2. Expliquer les différences fondamentales entre 3 navigateurs web et expliquer où on peut
+            trouver leur compatibilité CSS</h3>
+            <p>
+                le layout engine ! typiquement sur Chrome et safari utilise webkit et sur firefox Gecko, la diférence fondatementale de ceci est l'utilisation ou non de feature, language,module. 
+                Le design ! 
+                Chrome appartenant à google intègre beaucoup de fonctionnalité de google comme par exemple changer de compte de navigateur permet de changer de préférance et de barre de favoris par exemple. 
+                Opera quant à lui est basé sur la practicité, il y'a la possibilité d'intégré des applications comme spotify, discord etc dans la barre du navigateur. 
+                Ou encore brave qui se base sur la protection de la vie privé des utilisateur en ayant un bloqueur de pub implémenté directement dans l'interface et la possibilité d'avoir son porte monnaie de crypto à porter de mains.
+                on peut savoir la compatibilité de notre feature en allant sur <a href="https://caniuse.com/">Can i use</a>
+            </p>
+
+            <h3>3. Écrire vos recommandations (best practice) pour programmer un site web en HTML / CSS.</h3>
+            <p>Commencer par la structure du site sur papier, choisir les liens entre les pages et leur disposition. <br>
+                Une fois fait, Choissisez une ligne éditoriale, qu'elle est sont but, qu'elle palette de couleur choisir, l'accès facile a l'information etc. <br>
+                Ensuite une fois devant votre code commencer par crée votre site pour le mobile et l'adapter ensuite pour un écran plus large. <br>
+                Et pour facilité la conception du site je proposerais de prendre des libraire comme bootstrap par exemple. </p>
+            <h3>4. Décrire les aspects juridiques qui doivent être pris en compte et respectés sur un site web
+            (droits d’auteur, protection de la personnalité).</h3>
+                <p>Il y'a plusieur paramètre à prendre en compte ocmme par exemple le territoire sur le quelle l'image à été télécharger ou utiliser, les raisons : commercial, privé, scolaire. ensuite quelle type de produit cela est, typiquement une photographie en suisse est d'office soumis au droit d'auteur quelque soit ça prise ou sont appareil utiliser. Les licences lier au oeuvres sont aussi à prendre en compte suivant la licence on peut l'utiliser professionellement ou non. Pour finir il y'a le droit  à la personalite (art 28 du code civile suisse), on ne peut donc utiliser une image de quelqu'un sans son authorisation sous peine d'encourir à de grave acusations. En bref pour ne pas avoir de soucis legaux il faut que l'oeuvre soit libre de droit ou bien que vous ayier les droit sur l'image en les achetant par exemple.</p>
+            <h3>5. Quels sont les formats multimédias supportés nativement par HTML 5.</h3>
+                <p>Video : .mpg / .mpeg / .avi / .wmv / .mov / .rm / .ram / .swf / .flv / .ogg / .webm / .mp4</p>
+                <p>Audio : .mid / .midi / .rm / .ram / .wma / .aac / .wav / .ogg / .mp3 / .mp4 </p>
+                <p>Images : .apng / .gif / .ico / .cur / .jpg / .jpeg / .jfif / .pjpeg / .pjp / .png / .svg</p>
+      </section>
+    <script>
+        var navigationLinks = document.getElementById("navigationLinks");
+        function showMenu(){navigationLinks.style.right = "0"}
+        function hideMenu(){navigationLinks.style.right = "-200px"}
+    </script>
+<section class="footer">
+    <div>
+        <h4> 
+            « Il y a trois réactions possibles à tout design : oui, non, et WAHOU ! <br>La troisième est celle que je vise. » – Milton Glaser 
+        </h4>
+        <img src="/images/FacebookIcon.png" href="">
+        <img src="/images/instagramIcon.png" href="">
+        <img src="/images/TwitterIcon.png" href="">
+        <img src="/images/WhatsAppIcon.png" href="">
+
+        <p>Made with heart♥ by Leonardo Surdez&#153;</p>
+    </div>
+</section>
+</body>
+</html>
