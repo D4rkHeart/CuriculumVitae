@@ -13,6 +13,7 @@
 }
 
 .sub-header h1 {
+  color:rgb(255, 255, 255);
   margin-top: 40px;
 }
 
@@ -27,6 +28,7 @@ h1 {
   font-weight: 300;
   text-align: center;
   margin-bottom: 15px;
+  margin-top: 20px
 }
 table {
   width: 100%;
