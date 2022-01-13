@@ -17,7 +17,7 @@
 }
 
 /* ALBUM */
-/* @keyframes tonext {
+@keyframes tonext {
     75% {
       left: 0;
     }
@@ -31,7 +31,7 @@
       left: 0;
     }
   }
-   */
+  
 @keyframes tostart {
   75% {
     left: 0;
@@ -110,7 +110,6 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-image: url("./images/Photography/IMG_8955.CR2");
   counter-increment: item;
 }
 
@@ -148,6 +147,18 @@ li {
   .carousel__slide:last-child .carousel__snapper {
     animation-name: tostart, snap;
   }
+}
+#carousel__slide1{
+  background-image: url(./images/photographyTitle.jpg)
+}
+#carousel__slide2{
+  background-image: url(./images/gameDesignTitle.jpeg)
+}
+#carousel__slide3{
+  background-image: url(./images/graphicDesignTitle.jpg)
+}
+#carousel__slide4{
+  background-image: url(./images/aboutMeTitle.jpeg)
 }
 
 @media (prefers-reduced-motion: reduce) {
